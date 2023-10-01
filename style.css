@@ -41,60 +41,7 @@ nav img {
     color: #fff;
     font-size: 13px;
 }
-/* Mobile Menu Styles */
-.nav-links {
-    flex: 1;
-    text-align: right;
-    transition: right 0.5s; /* Added transition for smooth animation */
-    position: absolute; /* Position absolute for mobile menu */
-    top: 0;
-    right: -200px; /* Initially hide the menu off the screen */
-    background-color: rgba(4, 9, 30, 0.9); /* Background color for mobile menu */
-    height: 100vh; /* Full height of the viewport */
-    width: 200px; /* Width of the mobile menu */
-    z-index: 2; /* Ensure it's above other content */
-    padding-top: 60px; /* Add top padding to account for the navigation links */
-}
 
-.nav-links ul {
-    padding: 0 20px; /* Add some left padding to the mobile menu links */
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: block; /* Display mobile menu links as block elements */
-    padding: 15px 0; /* Add padding to separate menu items */
-    text-align: center; /* Center-align mobile menu items */
-}
-
-.nav-links ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px; /* Increase font size for better mobile visibility */
-    transition: color 0.3s; /* Smooth color transition on hover */
-}
-
-.nav-links ul li a:hover {
-    color: #f44336;
-}
-
-/* JavaScript for mobile menu toggle is not included here; please include it from your previous code */
-
-@media (max-width: 700px) {
-    /* Hide the desktop navigation links */
-    .nav-links ul li {
-        display: none;
-    }
-
-    /* Display the mobile menu icon */
-    nav .fa {
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-}
 
 .nav-links ul li a:hover {
     color: #f44336;
